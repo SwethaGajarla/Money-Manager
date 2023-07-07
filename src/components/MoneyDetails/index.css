@@ -1,0 +1,50 @@
+/* Write your CSS here */
+.money-details {
+  display: flex;
+  margin: 30px 0 30px 0;
+  justify-content: space-between;
+}
+
+.balance-card {
+  display: flex;
+  width: 300px;
+  background-color: #ecfccb;
+  border: 1px solid #84cc16;
+  border-radius: 10px;
+  height: 100px;
+  padding: 15px;
+}
+.custom-image {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+}
+.content-heading {
+  font-family: 'Roboto';
+  color: #475569;
+  font-weight: 500;
+  margin: 0;
+}
+.amount {
+  font-family: 'Roboto';
+  color: #475569;
+  font-weight: 500;
+}
+.income-card {
+  display: flex;
+  width: 300px;
+  background-color: #cffafe;
+  border: 1px solid #06b6d4;
+  border-radius: 10px;
+  height: 100px;
+  padding: 15px;
+}
+.expense-card {
+  display: flex;
+  width: 300px;
+  background-color: #ede9fe;
+  border: 1px solid #7c3aed;
+  border-radius: 10px;
+  height: 100px;
+  padding: 15px;
+}
