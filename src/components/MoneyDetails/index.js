@@ -2,8 +2,9 @@
 import './index.css'
 
 const MoneyDetails = props => {
-  const {income, expenses} = props
-  const balance = income + expenses
+  const {income, expense} = props
+  const balance = income - expense
+
   return (
     <div className="money-details">
       <div className="balance-card">
@@ -14,7 +15,9 @@ const MoneyDetails = props => {
         />
         <div>
           <p className="content-heading">Your Balance</p>
-          <p className="amount">Rs {balance}</p>
+          <p data-testid="balanceAmount" className="amount">
+            Rs {balance}
+          </p>
         </div>
       </div>
       <div className="income-card">
@@ -25,7 +28,9 @@ const MoneyDetails = props => {
         />
         <div>
           <p className="content-heading">Your Income</p>
-          <p className="amount">Rs {income}</p>
+          <p data-testid="incomeAmount" className="amount">
+            Rs {income}
+          </p>
         </div>
       </div>
       <div className="expense-card">
@@ -35,8 +40,10 @@ const MoneyDetails = props => {
           className="custom-image"
         />
         <div>
-          <p className="content-heading">Your Balance</p>
-          <p className="amount">Rs {balance}</p>
+          <p className="content-heading">Your Expenses</p>
+          <p data-testid="expensesAmount" className="amount">
+            Rs {expense}
+          </p>
         </div>
       </div>
     </div>

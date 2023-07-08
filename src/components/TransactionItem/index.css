@@ -1,8 +1,9 @@
 /* Write your CSS here */
 .transaction-item-container {
   display: flex;
-  border: 0 1px 1px 1px solid #cbd5e1;
-  justify-content: space-around;
+  /* border: 0 1px 1px 1px solid #cbd5e1; */
+  justify-content: space-between;
+  padding: 0px 20px 0px 30px;
 }
 
 .transaction {
@@ -13,4 +14,9 @@
 .delete {
   width: 20px;
   height: 20px;
+  margin-top: 10px;
+}
+.custom-delete-btn {
+  background-color: transparent;
+  border-width: 0;
 }

@@ -38,7 +38,7 @@
 }
 .input-content {
   width: 300px;
-  height: 30px;
+  height: 35px;
   margin-bottom: 15px;
 }
 
@@ -68,11 +68,25 @@
 .transactions-headings-container {
   display: flex;
   border: 1px solid #cbd5e1;
-  justify-content: space-around;
 }
 
-.transactions-headings {
+.transactions-headings1 {
   font-family: 'Roboto';
   color: #334155;
   font-weight: 500;
+  margin-left: 30px;
+}
+.transactions-headings2 {
+  font-family: 'Roboto';
+  color: #334155;
+  font-weight: 500;
+  margin-left: 210px;
+}
+
+.list-container {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 0;
+  border: 1px solid #cbd5e1;
+  border-top: none;
 }
